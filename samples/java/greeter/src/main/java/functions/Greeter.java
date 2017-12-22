@@ -9,7 +9,7 @@ public class Greeter implements Function<String, String> {
 		String suffix = name.substring(1);
 		String song = name + ", " + name + ", bo-b" + suffix;
 		song = song + " Banana-fana fo-f" + suffix;
-		song = song + " Fee-fi-fo-m" + suffix);
+		song = song + " Fee-fi-fo-m" + suffix;
 		song = song + "... " + name.toUpperCase() + "!";
 
 		return song;
